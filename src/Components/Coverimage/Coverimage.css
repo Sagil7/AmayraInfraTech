@@ -1,0 +1,58 @@
+.imagecontainer{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url('coverimg2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(1);
+    /* animation: zoomOut 5s ease-out forwards; */
+    
+    animation: changeBackground 20s infinite linear;
+
+}
+
+@keyframes zoomOut {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1); /* Adjust the value based on your preference */
+    }
+  }
+  @keyframes changeBackground {
+    0%, 100% {
+      background-image: url('coverimg.jpg');
+    }
+    50% {
+      background-image: url('coverimg2.jpg');
+    }
+  }
+  .writtencontent{
+    margin-top: 10%;
+    width: 70%;
+    text-align: left;
+    color: white;
+  }
+  .writtencontent h1{
+    margin: 0;
+    width: 80%;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .writtencontent h2{
+    margin: 0;
+    font-weight: 600;
+  }
+  .writtencontent p{
+    font-weight: 600;
+    font-size: 22px;    
+  }
+  

@@ -1,0 +1,25 @@
+.countermain{
+    height: 270px;
+    border: 1px solid red;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.countercontainer{
+    width: 200px;
+    height: 180px;
+
+}
+.countercontainer img{
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+
+}
+.countercontainer h2{
+    position: relative;
+    top: 5%;
+}
