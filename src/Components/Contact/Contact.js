@@ -1,6 +1,25 @@
 import React from 'react'
 import './Contact.css'
+import emailjs, { send } from '@emailjs/browser';
+import { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 function Contact() {
+    const form = useRef();
+    const navigate = useNavigate();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_l9il6dh', 'template_rbxxzvg', form.current, 'uy9ODf3iwShW7SnU1')
+        .then((result) => {
+            console.log(result.text);
+            alert("Submitted Successfully")
+			navigate('/');
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <div>
             <section class="section-bg" style={{backgroundImage: `url(https://i.ibb.co/9p3Cnk9/slider-2.jpg)`}} data-scroll-index="7">
@@ -42,7 +61,7 @@ function Contact() {
                             </div>
                             <div class="col-lg-6 d-flex align-items-center">
                                 <div class="contact-form">
-                                    <form id='contact-form' method='POST'><input type='hidden' name='form-name' value='contactForm' />
+                                    <form id='contact-form' ref={form} onSubmit={sendEmail} method='POST'><input type='hidden' name='form-name' value='contactForm' />
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
@@ -56,7 +75,7 @@ function Contact() {
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <input type="number" name="email" class="form-control" id="email" placeholder="Enter phone number *" required="required" />
+                                                    <input type="number" name="phone" class="form-control" id="email" placeholder="Enter phone number *" required="required" />
                                                 </div>
                                             </div>
 
