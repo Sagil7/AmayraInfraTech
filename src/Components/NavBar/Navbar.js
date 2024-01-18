@@ -43,10 +43,10 @@ const handleClick =() =>{
               <NavLink class="nav-link" to="/projects" onClick={handleClick}>Projects</NavLink>
             </li>
             <li class="nav-item">
-              <NavLink class="nav-link" to="/contact" onClick={handleClick}>Contact</NavLink>
+              <NavLink class="nav-link" to="/Testimonial" onClick={handleClick}>Testimonial</NavLink>
             </li>
             <li class="nav-item">
-              <NavLink class="nav-link" to="/contact" onClick={handleClick}>Quicklinks</NavLink>
+              <NavLink class="nav-link" to="/contact" onClick={handleClick}>Contact</NavLink>
             </li>
 
             

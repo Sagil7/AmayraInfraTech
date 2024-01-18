@@ -1,6 +1,7 @@
 .maincontainer{
 /* width: 100%; */
 text-align: center;
+margin: 20px 0px;
 
 }
 .container1{
@@ -19,11 +20,11 @@ button{
     margin: 10px;
     width: 180px;
     height: 62px;
-    border-radius: 12px;
+    border-radius: 1px;
     background-color: black;
     color: burlywood;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
 }
 button:hover{
     background-color: burlywood;

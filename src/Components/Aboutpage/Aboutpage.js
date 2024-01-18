@@ -20,7 +20,10 @@ function Aboutpage() {
               At Amayra Infratech, we believe that commercial real estate is not just about transactions. It's about creatingan environment that fosters business growth andbuilding long-lasting relationships. Our team comprises experienced professionals who bring their market knowledge and innovative strategies to the table,ensuring that your business thrives.
             </p>
             <p class="text-blk description">
-              At Amayra Infratech, we believe that commercial real estate is not just about transactions. It's about creatingan environment that fosters business growth andbuilding long-lasting relationships. Our team comprises experienced professionals who bring their market knowledge and innovative strategies to the table,ensuring that your business thrives.
+            More than just a real estate partner, Amayra Infratech is your ally in achieving business milestones. We take pride in curating spaces that not only meet your immediate needs but also lay the foundation for enduring professional connections.
+            </p>
+            <p class="text-blk description">
+            Amayra Infratech believes that every business deserves a tailored space that mirrors its aspirations. Our dedicated professionals work tirelessly to understand your unique requirements, ensuring that your workspace becomes a catalyst for success.
             </p>
 
           </div>

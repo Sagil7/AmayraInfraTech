@@ -4,7 +4,7 @@ function Howitwork() {
   return (
     <div className='outerclass'>
       <h2>How it Work</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quaerat!</p>
+      <p>Finding the one made simple: effortless, versatile, and enjoyable</p>
 <ol>
     <li >
         <div class="icon"><i class="fa-solid fa-house" style={{color: '#b8df4e'}}></i></div>

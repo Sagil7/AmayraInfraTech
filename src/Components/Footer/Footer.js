@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
-import logo from './logo.jpeg'
+import { Link } from 'react-router-dom'
+import logo from './logo.png'
 function Footer() {
   return (
     <div>
@@ -8,9 +9,9 @@ function Footer() {
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <a href="index.html"><img src={logo} alt="" class="img-fluid logo-footer"/></a>
+        <Link to="/home"><img src={logo} alt="" class="img-fluid logo-footer"/></Link>
         <div class="footer-about">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          <p>Amayra InfraTech  is a well-known real estate company in Delhi.The organization was established in 2019 and Our main goal is to Elevate your living Experience with our Exceptional Real Estate services like Commercial,Residential. </p>
         </div>
 
       </div>
@@ -19,10 +20,10 @@ function Footer() {
           <h2>Useful Links</h2>
           {/* <img src="./assets/images/about/home_line.png" alt="" class="img-fluid"/> */}
           <div class="use-links">
-            <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
-            <li><a href="about.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
-            <li><a href="gallery.html"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
-            <li><a href="contact.html"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+            <li><Link to="/home"><i class="fa-solid fa-angles-right"></i> Home</Link></li>
+            <li><Link to="/about"><i class="fa-solid fa-angles-right"></i> About Us</Link></li>
+            <li><Link to="/projects"><i class="fa-solid fa-angles-right"></i> Projects</Link></li>
+            <li><Link to="/contact"><i class="fa-solid fa-angles-right"></i> Contact</Link></li>
           </div>
         </div>
 
@@ -32,8 +33,8 @@ function Footer() {
           <h2>Follow Us</h2>
           {/* <img src="./assets/images/about/home_line.png" alt=""/> */}
           <div class="social-icons">
-            <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
-            <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+            <li><a target='_blank' href="https://www.facebook.com/profile.php?id=61555194820045&mibextid=ZbWKwL"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+            <li><a target='_blank' href="https://www.instagram.com/amayra_infratech_official_?igsh=bWRyZHR6YXI2M3k0"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
             <li><a href=""><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
           </div>
         </div>
@@ -44,8 +45,7 @@ function Footer() {
           <h2>Address</h2>
           {/* <img src="./assets/images/about/home_line.png" alt="" class="img-fluid"/> */}
           <div class="address-links">
-            <li class="address1"><i class="fa-solid fa-location-dot"></i> Office no 1278,1279
-Floor-12      Gaur city mall 
+            <li class="address1"><i class="fa-solid fa-location-dot"></i> Floor-12  Gaur city mall 
 Noida extension - 201009</li>
             <li><a href=""><i class="fa-solid fa-phone"></i> +91 8882957128</a></li>
             <li><a href=""><i class="fa-solid fa-envelope"></i> amayrainfratech@gmail.com</a></li>
@@ -60,7 +60,7 @@ Noida extension - 201009</li>
 
 <section id="copy-right">
   <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
-    lorem ispum lorem ispum 2022 Powerd By <a href="#">lorem ispum</a>
+  © 2023. All rights reserved by  <a href="#">Amayra InfraTech</a>
 
   </div>
 

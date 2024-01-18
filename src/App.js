@@ -16,6 +16,7 @@ import About from './Pages/About'
 import Projectpage from './Pages/Projectpage';
 import Contactpage from './Pages/Contactpage';
 import Home from './Pages/Home'
+import Testimonialpage from './Pages/Testimonialpage';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projectpage />} />
         <Route path="/contact" element={<Contactpage />} />
+        <Route path="/Testimonial" element={<Testimonialpage />} />
       </Routes>
         <Footer/>
 

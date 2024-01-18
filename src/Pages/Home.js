@@ -13,7 +13,7 @@ function Home() {
       <Coverimage/>
       <Aboutus/>
       <Expertise/>
-      {/* <Ourproject/> */}
+      <Ourproject/>
       <Howitwork/>
       <Testimonial/>
       <Counter/>

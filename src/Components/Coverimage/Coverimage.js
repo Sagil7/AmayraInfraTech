@@ -8,7 +8,7 @@ function Coverimage() {
         <div className='writtencontent'>
             <h2>Delhi Real Estate company</h2>
             <h1>Residential plots in Delhi</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, incidunt?</p>
+        <p>Satisfying customer needs through a selection of diverse real estate options.</p>
 
 
         </div>

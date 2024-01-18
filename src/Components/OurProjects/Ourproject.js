@@ -11,7 +11,7 @@ function Ourproject() {
         <Projectcard/>
 
       </div>
-      <button > Learn more</button>
+      <button > View more Projects</button>
     </div>
   )
 }
