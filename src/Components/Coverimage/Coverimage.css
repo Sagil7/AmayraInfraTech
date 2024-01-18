@@ -11,6 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     filter: brightness(1);
+    
     /* animation: zoomOut 5s ease-out forwards; */
     
     animation: changeBackground 20s infinite linear;

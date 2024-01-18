@@ -1,16 +1,18 @@
 .countermain{
-    height: 270px;
-    border: 1px solid red;
+    /* height: 270px; */
     display: flex;
     margin: 0px auto;
+    /* flex-direction: column; */
     justify-content: space-around;
     align-items: center;
     width: 80%;
     flex-wrap: wrap;
+    /* border: 1px solid black; */
 }
 .countercontainer{
     width: 200px;
     height: 180px;
+    /* border: 1px solid red; */
 
 }
 .countercontainer img{
@@ -22,4 +24,14 @@
 .countercontainer h2{
     position: relative;
     top: 5%;
+}
+.value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 850px) {
+    .countermain{
+        flex-direction: column;
+    }
 }

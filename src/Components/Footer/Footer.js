@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import logo from './logo.jpeg'
 function Footer() {
   return (
     <div>
@@ -7,7 +8,7 @@ function Footer() {
   <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <a href="index.html"><img src="https://logo-download.com/wp-content/data/images/2021/08/Levi_Strauss__Co.-Logo.png" alt="" class="img-fluid logo-footer"/></a>
+        <a href="index.html"><img src={logo} alt="" class="img-fluid logo-footer"/></a>
         <div class="footer-about">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
         </div>
@@ -43,11 +44,11 @@ function Footer() {
           <h2>Address</h2>
           {/* <img src="./assets/images/about/home_line.png" alt="" class="img-fluid"/> */}
           <div class="address-links">
-            <li class="address1"><i class="fa-solid fa-location-dot"></i> Kolathur ramankulam-
-              Malappuram Dt
-              Kerala 679338</li>
-            <li><a href=""><i class="fa-solid fa-phone"></i> +91 90904500112</a></li>
-            <li><a href=""><i class="fa-solid fa-envelope"></i> mail@1234567.com</a></li>
+            <li class="address1"><i class="fa-solid fa-location-dot"></i> Office no 1278,1279
+Floor-12      Gaur city mall 
+Noida extension - 201009</li>
+            <li><a href=""><i class="fa-solid fa-phone"></i> +91 8882957128</a></li>
+            <li><a href=""><i class="fa-solid fa-envelope"></i> amayrainfratech@gmail.com</a></li>
           </div>
         </div>
       </div>

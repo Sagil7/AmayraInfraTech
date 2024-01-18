@@ -4,10 +4,28 @@ text-align: center;
 
 }
 .container1{
-   margin: 5%;
+   /* margin: 5%; */
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
+}
+.maincontainer h2{
+    color: burlywood;
+    font-weight: 700;
+}
+button{
+    margin: 10px;
+    width: 180px;
+    height: 62px;
+    border-radius: 12px;
+    background-color: black;
+    color: burlywood;
+    font-size: 18px;
+    font-weight: 800;
+}
+button:hover{
+    background-color: burlywood;
+    color: black;
 }
