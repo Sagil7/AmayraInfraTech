@@ -16,7 +16,7 @@ function Home() {
       <Expertise/>
       <Ourproject   vis={{display:'none'}}/>
       <Howitwork/>
-      <Testimonial cleintsay="Our client say" Testimonial="Testimonial"/>
+      <Testimonial  vis={{display:'none'}} />
       <Counter/>
     </div>
   )

@@ -48,7 +48,7 @@ function Footer() {
             <li class="address1"><i class="fa-solid fa-location-dot"></i> Floor-12  Gaur city mall 
 Noida extension - 201009</li>
             <li><a href=""><i class="fa-solid fa-phone"></i> +91 8882957128</a></li>
-            <li><a href=""><i class="fa-solid fa-envelope"></i> amayrainfratech@gmail.com</a></li>
+            <li><a href="mailto:amayrainfratech@gmail.com"><i class="fa-solid fa-envelope"></i> amayrainfratech@gmail.com</a></li>
           </div>
         </div>
       </div>

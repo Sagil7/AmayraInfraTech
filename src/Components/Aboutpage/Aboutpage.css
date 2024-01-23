@@ -1,6 +1,4 @@
-* {
-    font-family: Nunito, sans-serif;
-  }
+
   
   .responsive-container-block {
     min-height: 75px;
@@ -96,7 +94,7 @@
   }
   
   .text-blk.description {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: black;
     margin-top: 0px;
@@ -271,7 +269,7 @@
   
     .text-blk.description {
       text-align: center;
-      font-size: 25px;
+      font-size: 20px;
     }
   
     .allText {
@@ -328,7 +326,7 @@
     }
   
     .text-blk.description {
-      font-size: 25px;
+      font-size: 20px;
       padding-top: 0px;
       padding-right: 0px;
       padding-bottom: 0px;
