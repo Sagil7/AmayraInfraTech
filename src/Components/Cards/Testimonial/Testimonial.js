@@ -1,11 +1,11 @@
 import React from 'react'
 import './Testimonial.css'
-function Testimonial() {
+function Testimonial({cleintsay,Testimonial}) {
   return (
     <div>
       <div className="Testimonials">
-        <p>Our Cleints say</p>
-        <h2>Testimonials</h2>
+        <p>{cleintsay}</p>
+        <h2>{Testimonial}</h2>
       <figure class="snip15331">
   <figcaption>
     <blockquote>

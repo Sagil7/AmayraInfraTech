@@ -30,7 +30,7 @@ function Contact() {
                                 <div class="contact-info">
 
                                     <h2 class="contact-title">Have Any Questions?</h2>
-                                    <p>Lorem ipsum is a dummy text used to replace text in some areas just for the purpose of an example. It can be used in publishing and graphic design. The lorem ipsum text is usually a section of a Latin text by Cicero with words altered, added and removed to make it nonsensical.</p>
+                                    <p>To get in touch with us, please fill out the contact form below. Make sure to provide as much detail as possible so that we can better understand and address your needs. Rest assured that your information is secure and will only be used to respond to your inquiry.</p>
                                     <ul class="contact-info">
                                         <li>
                                             <div class="info-left">

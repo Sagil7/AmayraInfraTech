@@ -8,14 +8,15 @@ import Howitwork from '../Components/Howitwork/Howitwork'
 import Expertise from '../Components/Expertise/Expertise'
 
 function Home() {
+  
   return (
     <div>
       <Coverimage/>
       <Aboutus/>
       <Expertise/>
-      <Ourproject/>
+      <Ourproject   vis={{display:'none'}}/>
       <Howitwork/>
-      <Testimonial/>
+      <Testimonial cleintsay="Our client say" Testimonial="Testimonial"/>
       <Counter/>
     </div>
   )

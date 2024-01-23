@@ -5,9 +5,9 @@ import Ourproject from '../Components/OurProjects/Ourproject'
 function Projectpage() {
   return (
     <div>
-    <Ourproject/>
-    <Ourproject/>
-    <Ourproject/>
+    <Ourproject buttonvisible={{display:'none'}} />
+    {/* <Ourproject/>
+    <Ourproject/> */}
      
     </div>
   )
