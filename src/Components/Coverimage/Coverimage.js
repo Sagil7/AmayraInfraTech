@@ -6,8 +6,8 @@ function Coverimage() {
     <div>
       <div className="imagecontainer">
         <div className='writtencontent'>
-            <h2>Delhi Real Estate company</h2>
-            <h1>Residential plots in Delhi</h1>
+            <h2> Real Estate company</h2>
+            <h1>Residential & Commercial Properties  in Delhi</h1>
         <p>Satisfying customer needs through a selection of diverse real estate options.</p>
 
 

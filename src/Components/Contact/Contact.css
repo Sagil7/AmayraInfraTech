@@ -205,6 +205,7 @@ display: inline-block;
     margin-top: 50px;
 }
 
+
 @media only screen and (max-width: 767px) {
 .contact-form {
     padding: 30px;

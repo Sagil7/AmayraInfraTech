@@ -9,7 +9,7 @@ function Howitwork() {
     <li >
         <div class="icon"><i class="fa-solid fa-house" style={{color: '#b8df4e'}}></i></div>
         <div class="title">Step 1</div>
-        <div class="descr"><h5>choose your plot</h5></div>
+        <div class="descr"><h5>choose your property</h5></div>
     </li>
     <li >
         <div class="icon"><i class="fa-solid fa-phone" style={{color: '#4cbccb'}}></i></div>
