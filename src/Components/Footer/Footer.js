@@ -11,7 +11,7 @@ function Footer() {
       <div class="col-md-3">
         <Link to="/home"><img src={logo} alt="" class="img-fluid logo-footer"/></Link>
         <div class="footer-about">
-          <p>Amayra InfraTech  is a well-known real estate company in Delhi.The organization was established in 2019 and Our main goal is to Elevate your living Experience with our Exceptional Real Estate services like Commercial,Residential. </p>
+          <p>Amayra InfraTech  is a well-known real estate company in Noida.The organization was established in 2023 and Our main goal is to Elevate your living Experience with our Exceptional Real Estate services like Commercial,Residential. </p>
         </div>
 
       </div>
