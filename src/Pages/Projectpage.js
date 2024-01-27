@@ -58,7 +58,7 @@ function Projectpage() {
           <h2 class="card_title">GYGY MENTIS</h2>
           <div class="card_text">
             <p>
-          Introducing GYGY  MeFADntis Sector-140, Noida Expressway, where innovation meets exclusive retail F&B spaces. Enjoy the promise of assured returns at an impressive 12%. Avail the magic deal by investing just 14.50 lakhs and receive a monthly return of 14,500/-. Benefit from lease assurance at 180/-. GYGY offers smart building features, ensuring uninterrupted operations, common amenities, earthquake resistance, fortified security, and effortless accessibility.Seize this opportunity to be part of GYGY – where cutting-edge innovation harmonizes with a dynamic retail and F&B space.
+          Introducing GYGY  Mentis Sector-140, Noida Expressway, where innovation meets exclusive retail F&B spaces. Enjoy the promise of assured returns at an impressive 12%. Avail the magic deal by investing just 14.50 lakhs and receive a monthly return of 14,500/-. Benefit from lease assurance at 180/-. GYGY offers smart building features, ensuring uninterrupted operations, common amenities, earthquake resistance, fortified security, and effortless accessibility.Seize this opportunity to be part of GYGY – where cutting-edge innovation harmonizes with a dynamic retail and F&B space.
             </p>
             <hr />
            
