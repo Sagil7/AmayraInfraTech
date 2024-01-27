@@ -11,11 +11,13 @@ import Projectpage from './Pages/Projectpage';
 import Contactpage from './Pages/Contactpage';
 import Home from './Pages/Home'
 import Testimonialpage from './Pages/Testimonialpage';
+import Contactbutton from './Components/Contactbutton/Contactbutton';
 
 function App() {
   return (
     <>
     <Navbar/>
+    <Contactbutton/>
   
 
       <Routes>

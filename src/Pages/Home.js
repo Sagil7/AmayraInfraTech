@@ -6,6 +6,7 @@ import Testimonial from '../Components/Cards/Testimonial/Testimonial'
 import Counter from '../Components/Cards/Countercard/Counter'
 import Howitwork from '../Components/Howitwork/Howitwork'
 import Expertise from '../Components/Expertise/Expertise'
+import Projectsection from '../Components/Projectsection/Projectsection'
 
 function Home() {
   
@@ -14,7 +15,8 @@ function Home() {
       <Coverimage/>
       <Aboutus/>
       <Expertise/>
-      <Ourproject   vis={{display:'none'}}/>
+      <Projectsection/>
+      {/* <Ourproject   vis={{display:'none'}}/> */}
       <Howitwork/>
       <Testimonial  vis={{display:'none'}} />
       <Counter/>

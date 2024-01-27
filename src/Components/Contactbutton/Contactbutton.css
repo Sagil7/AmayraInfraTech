@@ -1,0 +1,13 @@
+.cotacticons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 85%;
+    left: 1%;
+    z-index: 1000000;
+    flex-direction: column;
+}
+img{
+    margin: 5px;
+    width: 40px;
+}

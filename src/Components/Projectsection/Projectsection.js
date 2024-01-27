@@ -1,14 +1,10 @@
 import React from 'react'
-import Projectcard from '../Components/Cards/ProjectCard/Projectcard'
-import Ourproject from '../Components/OurProjects/Ourproject'
-import pic1 from '../Components/Projectsection/project1.jpg'
-import pic2 from '../Components/Projectsection/project2.jpg'
-import pic3 from '../Components/Projectsection/project3.jpg'
-import pic4 from '../Components/Projectsection/project4.jpg'
-
-function Projectpage() {
+import './Project.css'
+import pic1 from './project1.jpg'
+import pic2 from './project2.jpg'
+import pic3 from './project3.jpg'
+function Projectsection() {
   return (
-    <div>
     <div className='outercontainer'>
         <h2>Our Projects</h2>
       <div class="main">
@@ -58,7 +54,7 @@ function Projectpage() {
           <h2 class="card_title">GYGY MENTIS</h2>
           <div class="card_text">
             <p>
-          Introducing GYGY  MeFADntis Sector-140, Noida Expressway, where innovation meets exclusive retail F&B spaces. Enjoy the promise of assured returns at an impressive 12%. Avail the magic deal by investing just 14.50 lakhs and receive a monthly return of 14,500/-. Benefit from lease assurance at 180/-. GYGY offers smart building features, ensuring uninterrupted operations, common amenities, earthquake resistance, fortified security, and effortless accessibility.Seize this opportunity to be part of GYGY – where cutting-edge innovation harmonizes with a dynamic retail and F&B space.
+          Introducing GYGY  Mentis Sector-140, Noida Expressway, where innovation meets exclusive retail F&B spaces. Enjoy the promise of assured returns at an impressive 12%. Avail the magic deal by investing just 14.50 lakhs and receive a monthly return of 14,500/-. Benefit from lease assurance at 180/-. GYGY offers smart building features, ensuring uninterrupted operations, common amenities, earthquake resistance, fortified security, and effortless accessibility.Seize this opportunity to be part of GYGY – where cutting-edge innovation harmonizes with a dynamic retail and F&B space.
             </p>
             <hr />
            
@@ -69,32 +65,7 @@ function Projectpage() {
   </ul>
 </div>
     </div>
-    <div className='outercontainer'>
-      <div class="main">
-  <ul class="cards">
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image">
-          <img src={pic4} alt="mixed vegetable salad in a mason jar." />
-        </div>
-        <div class="card_content">
-          <h2 class="card_title">BHUTANI ETHEREA</h2>
-          <div class="card_text">
-            <p>Welcome to Etherea by Bhutani, India's Largest Co-working Marketplace! Experience the future of flexible workspaces with our state-of-the-art managed office spaces. Designed for efficiency and collaboration, Etherea provides ready-to-move-in solutions that cater to the dynamic needs of modern businesses. Whether you're a startup, freelancer, or an established enterprise, Etherea offers a seamless work environment, fostering innovation and productivity. Join the evolution of work culture at Etherea, where convenience meets excellence. Your workspace journey begins here!
-            </p>
-            <hr />
-          </div>
-        </div>
-      </div>
-    </li>
-
-  </ul>
-</div>
-    </div>
-
-     
-    </div>
   )
 }
 
-export default Projectpage
+export default Projectsection
