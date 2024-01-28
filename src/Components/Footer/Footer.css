@@ -22,6 +22,10 @@
     padding-bottom: 80px;
     background-image: url(https://arena.km.ua/wp-content/uploads/3538533.jpg);
   }
+  #logoimg{
+    width: 250px;
+    height: 150px;
+  }
   #footer2 {
     background: #f7f7f7;
     padding: 3rem;
