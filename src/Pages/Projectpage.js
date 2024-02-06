@@ -94,7 +94,7 @@ function Projectpage() {
           <img src={pic5} alt="mixed vegetable salad in a mason jar." />
         </div>
         <div class="card_content">
-          <h2 class="card_title">MALL OF ASIA</h2>
+          <h2 class="card_title">MALL OF NOIDA</h2>
           <div class="card_text">
             <p>
               Explore the unparalleled investment opportunity at Mall of Noida, starting at just 18.00 lakhs. Enjoy a 24% assured return till possession with a convenient 50:50 payment plan, requiring only 36,000/-* per month. The strategic location, with proximity to Mahamaya and DND flyovers, ATTA Market Sec-18, Delhi IGI Airport (40 mins), and the proposed Jevar Airport (40 mins), ensures prime visibility and accessibility. Don't miss out on this opportunity to be part of Noida's thriving business landscape. Invest wisely, invest in Mall of Noida for a lucrative and stable future.
