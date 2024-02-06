@@ -5,6 +5,7 @@ import pic1 from '../Components/Projectsection/project1.jpg'
 import pic2 from '../Components/Projectsection/project2.jpg'
 import pic3 from '../Components/Projectsection/project3.jpg'
 import pic4 from '../Components/Projectsection/project4.jpg'
+import pic5 from '../Components/Projectsection/project5.jpg'
 
 function Projectpage() {
   return (
@@ -81,6 +82,22 @@ function Projectpage() {
           <h2 class="card_title">BHUTANI ETHEREA</h2>
           <div class="card_text">
             <p>Welcome to Etherea by Bhutani, India's Largest Co-working Marketplace! Experience the future of flexible workspaces with our state-of-the-art managed office spaces. Designed for efficiency and collaboration, Etherea provides ready-to-move-in solutions that cater to the dynamic needs of modern businesses. Whether you're a startup, freelancer, or an established enterprise, Etherea offers a seamless work environment, fostering innovation and productivity. Join the evolution of work culture at Etherea, where convenience meets excellence. Your workspace journey begins here!
+            </p>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src={pic5} alt="mixed vegetable salad in a mason jar." />
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">MALL OF ASIA</h2>
+          <div class="card_text">
+            <p>
+              Explore the unparalleled investment opportunity at Mall of Noida, starting at just 18.00 lakhs. Enjoy a 24% assured return till possession with a convenient 50:50 payment plan, requiring only 36,000/-* per month. The strategic location, with proximity to Mahamaya and DND flyovers, ATTA Market Sec-18, Delhi IGI Airport (40 mins), and the proposed Jevar Airport (40 mins), ensures prime visibility and accessibility. Don't miss out on this opportunity to be part of Noida's thriving business landscape. Invest wisely, invest in Mall of Noida for a lucrative and stable future.
             </p>
             <hr />
           </div>
