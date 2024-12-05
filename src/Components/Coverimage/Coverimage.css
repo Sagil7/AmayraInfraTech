@@ -28,10 +28,10 @@
   }
   @keyframes changeBackground {
     0%, 100% {
-      background-image: url('coverimg.jpg');
+      background-image: url('coverimg3.jpg');
     }
     50% {
-      background-image: url('coverimg2.jpg');
+      background-image: url('coverimg4.jpg');
     }
   }
   .writtencontent{

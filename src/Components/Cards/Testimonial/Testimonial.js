@@ -60,7 +60,7 @@ function Testimonial({vis}) {
       <p>Renting office space from Amayra InfraTech has truly transformed the way we work. The modern facilities and strategic location have significantly enhanced our productivity</p>
     </blockquote>
     <h3>Mayank Barui</h3>
-    <h4>Kolkata Interprise</h4>
+    <h4>Kolkata Enterprise</h4>
   </figcaption>
 </figure>
       </div>
